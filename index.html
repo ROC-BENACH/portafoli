@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafoli | Estudiant DAM 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">Roc</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inici</a></li>
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#skills">Habilitats</a></li>
+                <li><a href="#projects">Projectes</a></li>
+                <li><a href="#contact">Contacte</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hola, sóc</h3>
+            <h1>Roc</h1>
+            <h3>Estudiant de <span class="highlight">DAM 2</span></h3>
+            <div class="hero-buttons">
+                <a class="btn btn-cv-download" href="Currículum_Benach_Ricart_Roc%20(1).pdf" download>
+                    <span class="cv-icon">📄</span> Descarregar CV
+                </a>
+                <a href="#contact" class="btn">Contacta'm</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <!-- Puedes reemplazar esto con tu foto -->
+            <div class="img-placeholder">
+                <img src="pacman.png" alt="Pac-Man" class="pcman-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mi</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Desenvolupador d'Aplicacions Multiplataforma en formació</h3>
+                    <p>Actualment cursant el segon any de DAM. M'especialitzo en el desenvolupament del llenguatge Java i l'aplicacio Android Studio entre d'altres, tot i que també disfruto creant interfaces d'usuari atractives. Sempre estic buscant aprendre noves tecnologies i millorar les meves habilitats de codificació.</p>
+                    <p>El meu objectiu és convertir-me en un desenvolupador de codi indiferentment de quin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Els Meus <span>Coneixements</span></h2>
+            <div class="skills-container skill-buttons">
+                <div class="skill-block">
+                    <button class="skill-btn" aria-expanded="false" aria-controls="panel-1">Llenguatges de Programació <span class="arrow">▾</span></button>
+                    <div id="panel-1" class="skill-panel" hidden>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML &amp; CSS</li>
+                            <li>XML</li>
+                            <li>SQL</li>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Visual Basic.NET</li>
+                            <li>Git i GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <button class="skill-btn" aria-expanded="false" aria-controls="panel-2">Sistemes Operatius &amp; Multimèdia <span class="arrow">▾</span></button>
+                    <div id="panel-2" class="skill-panel" hidden>
+                        <ul>
+                            <li>Administració de Windows</li>
+                            <li>Administració de GNU/Linux</li>
+                            <li>Administració de MacOS</li>
+                        </ul>
+                        <p>Multimèdia: edició bàsica d'àudio i vídeo, manig d'eines multimèdia.</p>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <button class="skill-btn" aria-expanded="false" aria-controls="panel-3">Soft Skills <span class="arrow">▾</span></button>
+                    <div id="panel-3" class="skill-panel" hidden>
+                        <ul>
+                            <li>Treball en equip</li>
+                            <li>Adaptabilitat</li>
+                            <li>Empatia</li>
+                            <li>Creativitat</li>
+                            <li>Tolerància</li>
+                            <li>Compromís</li>
+                            <li>Responsable</li>
+                            <li>Puntual</li>
+                            <li>Actiu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Els Meus <span>Projectes</span></h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="webAuladesons.png" alt="webAuladesons">
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Aula de Sons</h3>
+                        <p>Projecte web — captura representativa.</p>
+                        <a href="https://nova.auladesons.cat" target="_blank" rel="noopener" class="btn-small">Veure Projecte</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="projectePenaltis.png" alt="devChallenge3">
+                    </div>
+                    <div class="project-info">
+                        <h3>DevChallenge3</h3>
+                        <p>Projecte app — captura representativa.</p>
+                        <button class="btn-small btn-modal" data-modal="modal-devchallenge3">Veure Projecte</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="devChallenge2.png" alt="devChallenge2">
+                    </div>
+                    <div class="project-info">
+                        <h3>DevChallenge2</h3>
+                        <p>Projecte app — captura representativa.</p>
+                        <button class="btn-small btn-modal" data-modal="modal-devchallenge2">Veure Projecte</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacte</h2>
+            <form class="contact-form" action="mailto:roc.benach@insbaixcamp.cat" method="post" enctype="text/plain">
+                <input name="name" type="text" placeholder="El Teu Nom" required>
+                <input name="email" type="email" placeholder="El Teu Email" required>
+                <textarea name="message" placeholder="El Teu Missatge" rows="10" required></textarea>
+                <button type="submit" class="btn">Enviar Missatge</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Modal DevChallenge3 -->
+    <div id="modal-devchallenge3" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>DevChallenge3 - Joc de Penaltis Online</h2>
+            <div class="modal-video">
+                <a href="https://youtu.be/U1XXX5o1Jpg" target="_blank" rel="noopener" class="btn btn-video-link">🎥 Veure Vídeo a YouTube</a>
+            </div>
+            <div class="modal-description">
+                <h3>Descripció:</h3>
+                <p>Joc online de penaltis per rondes on els jugadors alternen entre parar penaltis i xutant a porteria. Desenvolupat amb un servidor que gestiona les connexions en temps real dels jugadors. Cada ronda avalua les habilitats de defensa i atac amb una mecànica dinàmica i competitiva.</p>
+            </div>
+            <div class="modal-buttons">
+                <a href="https://drive.google.com/drive/folders/1QJVXMjxMLcg6o4ATl7kI5YfqRX3swmxL?usp=sharing" target="_blank" rel="noopener" class="btn">Descarregar del Drive</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal DevChallenge2 -->
+    <div id="modal-devchallenge2" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>DevChallenge2 - App Llistes de la Compra</h2>
+            <div class="modal-image">
+                <img src="devChallenge2.png" alt="DevChallenge2">
+            </div>
+            <div class="modal-description">
+                <h3>Descripció:</h3>
+                <p>Aplicació web per crear i gestionar llistes de la compra amb sistema de login. Els usuaris poden compartir les seves llistes amb altres usuaris. Interfície intuïtiva i responsiva per a dispositius mòbils i ordinadors.</p>
+                <p><strong>Característiques:</strong></p>
+                <ul>
+                    <li>Autenticació d'usuaris amb login</li>
+                    <li>Crear elements a les llistes</li>
+                    <li>Compartir llistes amb altres usuaris</li>
+                </ul>
+            </div>
+            <div class="modal-buttons">
+                <a href="https://drive.google.com/drive/folders/13uDkcTOqhlrHbGALZLCefhEvP-kexpsX?usp=sharing" target="_blank" rel="noopener" class="btn">Descarregar del Drive</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 Roc. Tots els drets reservats.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
