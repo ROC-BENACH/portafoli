@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 8px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+p {
+    margin: 20px 40px;
+    color: blue;
+}
+
+strong {
+    color: blue;
+}
+
+.formula {
+    padding: 4px;
+    background-color: black;
+    color: white;
+}
+
+.etiqueta {
+    padding: 4px;
+    background-color: yellow;
+    color: black;
+}
